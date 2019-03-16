@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BryceGrahamProject5.Book" Collapsed="true">
+    <Position X="3.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Book.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BryceGrahamProject5.CodeBook" Collapsed="true">
+    <Position X="2.5" Y="4" Width="1.5" />
+    <AssociationLine Name="decoder" Type="BryceGrahamProject5.Decoder">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.918" Y="0.055" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAACAAAAAAAAAIQIAAAAAAQAAAAQAAAQA=</HashCode>
+      <FileName>CodeBook.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="decoder" />
+      <Field Name="encoder" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="BryceGrahamProject5.Decoder" Collapsed="true">
+    <Position X="3.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Decoder.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="book" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="BryceGrahamProject5.Encoder" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Encoder.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="code" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="BryceGrahamProject5.Form1" Collapsed="true">
+    <Position X="9" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAEAAAAABCAAAAAAAACAQAACQAAAACAEFAAQAAAAAjg=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BryceGrahamProject5.Message" Collapsed="true">
+    <Position X="6" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Message.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BryceGrahamProject5.Normalizer" Collapsed="true">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Normalizer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BryceGrahamProject5.SecretMessage" Collapsed="true">
+    <Position X="6" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SecretMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BryceGrahamProject5.TextFile" Collapsed="true">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <AssociationLine Name="normalizer" Type="BryceGrahamProject5.Normalizer" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="4.75" Y="0.75" />
+        <Point X="4.626" Y="0.75" />
+        <Point X="4.626" Y="0.75" />
+        <Point X="3.25" Y="0.75" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAgABAAIAAAAAAAAAAAAAAAAAAAAAAACAAAQBgAAA=</HashCode>
+      <FileName>TextFile.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="normalizer" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
